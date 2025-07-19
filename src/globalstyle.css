@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+         url("./public/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+html{
+    font-family: "Roboto";
+    color: white;
+}
+
+.scrollTitle{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.postTitle{
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .scrollTitle{
+        text-align: center;
+        font-size: clamp(14px, 2.34vw, 18px);
+    }
+    .postTitle{
+        font-size: clamp(14px, 2.34vw, 18px);
+    }
+}

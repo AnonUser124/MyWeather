@@ -1,0 +1,19 @@
+.body{
+    background-image: url('../public/backgraunds/bg-weather-4.png') ;
+    background-size: cover;         /* Растянуть изображение на весь экран */
+    background-repeat: no-repeat;   /* Не повторять */
+    background-attachment: fixed;   /* Закрепить фон, чтобы он не прокручивался */
+    background-position: center;    
+
+
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+@media (max-width: 768px), (min-height: 1080px) {
+    .body{
+        display: block;
+    }
+}
